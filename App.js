@@ -235,6 +235,10 @@ class App extends React.Component {
     })
   }
 
+//при создании компонента
+
+
+
   render() {
     //размеры окна
     let clientWidth = window.innerWidth;
@@ -248,6 +252,11 @@ class App extends React.Component {
           Status Online:<button onClick={this.changeValues}>{String(this.state.status)}</button>
           <br/>
           has Errors:<button onClick={this.changeValues2}>{String(this.state.hasErrors)}</button>
+          <br/>
+          <br/>
+          clientWidth: {String(clientWidth)}
+          <br/>
+          clientHeight: {String(clientHeight)}
         </div>
 
         {/* CallBack-заказать звонок */}
