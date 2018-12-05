@@ -1175,10 +1175,6 @@ class BlockWindowWrap extends React.PureComponent {
         window.addEventListener("mousedown", this.onMouseDown);
         window.addEventListener("mouseup", this.forceMouseUp);
         window.addEventListener("mousemove", this.mouseMove);
-
-        window.addEventListener("touchstart", this.onMouseDown);
-        window.addEventListener("touchend", this.forceMouseUp);
-        window.addEventListener("touchmove", this.mouseMove);
     }
     //Удаляем
     componentWillUnmount() {
@@ -1186,10 +1182,6 @@ class BlockWindowWrap extends React.PureComponent {
         window.removeEventListener("mousedown", this.onMouseDown);
         window.removeEventListener("onmouseup", this.forceMouseUp);
         window.removeEventListener("mousemove", this.mouseMove);
-
-        window.removeEventListener("touchstart", this.onMouseDown);
-        window.removeEventListener("touchend", this.forceMouseUp);
-        window.removeEventListener("touchmove", this.mouseMove);
     }
 
     static getDerivedStateFromProps(props, state) {
