@@ -1,0 +1,394 @@
+[
+    { 
+        "code":1,
+        "title": "D83DDE03", 
+        "className":"emoji descD83DDE03"
+
+    },
+    { 
+        "code":2,
+        "title": "D83DDE09", 
+        "className":"emoji descD83DDE09"
+
+    },
+    { 
+        "code":3,
+        "title": "D83DDE06", 
+        "className":"emoji descD83DDE06"
+
+    },
+    { 
+        "code":4,
+        "title": "D83DDE1C", 
+        "className":"emoji descD83DDE1C"
+
+    },
+    { 
+        "code":5,
+        "title": "D83DDE0B", 
+        "className":"emoji descD83DDE0B"
+
+    },
+    { 
+        "code":6,
+        "title": "D83DDE0D", 
+        "className":"emoji descD83DDE0D"
+
+    },
+    { 
+        "code":7,
+        "title": "D83DDE0E", 
+        "className":"emoji descD83DDE0E"
+
+    },
+    { 
+        "code":8,
+        "title": "D83DDE12", 
+        "className":"emoji descD83DDE12"
+
+    },
+    { 
+        "code":9,
+        "title": "D83DDE0F", 
+        "className":"emoji descD83DDE0F"
+
+    },
+    { 
+        "code":10,
+        "title": "D83DDE14", 
+        "className":"emoji descD83DDE14"
+
+    },
+    { 
+        "code":11,
+        "title": "D83DDE22", 
+        "className":"emoji descD83DDE22"
+
+    },
+    { 
+        "code":12,
+        "title": "D83DDE2D", 
+        "className":"emoji descD83DDE2D"
+    },
+    { 
+        "code":13,
+        "title": "D83DDE29", 
+        "className":"emoji descD83DDE29"
+
+    },
+    { 
+        "code":14,
+        "title": "D83DDE28", 
+        "className":"emoji descD83DDE28"
+
+    },
+    { 
+        "code":15,
+        "title": "D83DDE10", 
+        "className":"emoji descD83DDE10"
+
+    },
+    { 
+        "code":16,
+        "title": "D83DDE0C", 
+        "className":"emoji descD83DDE0C",
+        "className2":"smile1 confounded"
+
+    },
+    { 
+        "code":17,
+        "title": "D83DDE04", 
+        "className":"emoji descD83DDE04"
+
+    },
+    { 
+        "code":18,
+        "title": "D83DDE07", 
+        "className":"emoji descD83DDE07"
+
+    },
+    { 
+        "code":19,
+        "title": "D83DDE30", 
+        "className":"emoji descD83DDE30"
+
+    },
+    { 
+        "code":20,
+        "title": "D83DDE32", 
+        "className":"emoji descD83DDE32"
+
+    },
+    { 
+        "code":21,
+        "title": "D83DDE33", 
+        "className":"emoji descD83DDE33"
+
+    },
+    { 
+        "code":23,
+        "title": "D83DDE37", 
+        "className":"emoji descD83DDE37"
+
+    },
+    { 
+        "code":24,
+        "title": "D83DDE02", 
+        "className":"emoji descD83DDE02"
+
+    },
+    { 
+        "code":25,
+        "title": "D83DDE1A", 
+        "className":"emoji descD83DDE1A"
+
+    },
+    { 
+        "code":26,
+        "title": "D83DDE15", 
+        "className":"emoji descD83DDE15"
+
+    },
+    { 
+        "code":27,
+        "title": "D83DDE2F", 
+        "className":"emoji descD83DDE2F"
+
+    },
+    { 
+        "code":28,
+        "title": "D83DDE26", 
+        "className":"emoji descD83DDE26"
+
+    },
+    { 
+        "code":29,
+        "title": "D83DDE35", 
+        "className":"emoji descD83DDE35"
+
+    },
+    { 
+        "code":30,
+        "title": "D83DDE20", 
+        "className":"emoji descD83DDE20"
+
+    },
+    { 
+        "code":31,
+        "title": "D83DDE21", 
+        "className":"emoji descD83DDE21"
+
+    },
+    { 
+        "code":32,
+        "title": "D83DDE1D", 
+        "className":"emoji descD83DDE1D"
+
+    },
+    { 
+        "code":33,
+        "title": "D83DDE34", 
+        "className":"emoji descD83DDE34"
+
+    },
+    { 
+        "code":34,
+        "title": "D83DDE18", 
+        "className":"emoji descD83DDE18"
+
+    },
+    { 
+        "code":35,
+        "title": "D83DDE1F", 
+        "className":"emoji descD83DDE1F"
+
+    },
+    { 
+        "code":36,
+        "title": "D83DDE2C", 
+        "className":"emoji descD83DDE2C"
+
+    },
+    { 
+        "code":37,
+        "title": "D83DDE36", 
+        "className":"emoji descD83DDE36"
+
+    },
+    { 
+        "code":38,
+        "title": "D83DDE2A", 
+        "className":"emoji descD83DDE2A"
+
+    },
+    { 
+        "code":39,
+        "title": "D83DDE2B", 
+        "className":"emoji descD83DDE2B"
+
+    },
+    { 
+        "code":40,
+        "title": "D83DDE3A", 
+        "className":"emoji descD83DDE3A"
+
+    },
+    { 
+        "code":41,
+        "title": "D83DDE00", 
+        "className":"emoji descD83DDE00"
+
+    },
+    { 
+        "code":42,
+        "title": "D83DDE25", 
+        "className":"emoji descD83DDE25"
+
+    },
+    { 
+        "code":43,
+        "title": "D83DDE1B", 
+        "className":"emoji descD83DDE1B"
+
+    },
+    { 
+        "code":44,
+        "title": "D83DDE16", 
+        "className":"emoji descD83DDE16"
+
+    },
+    { 
+        "code":45,
+        "title": "D83DDE24", 
+        "className":"emoji descD83DDE24"
+
+    },
+    { 
+        "code":46,
+        "title": "D83DDE23", 
+        "className":"emoji descD83DDE23"
+
+    },
+    { 
+        "code":47,
+        "title": "D83DDE27", 
+        "className":"emoji descD83DDE27"
+
+    },
+    { 
+        "code":48,
+        "title": "D83DDE11", 
+        "className":"emoji descD83DDE11"
+
+    },
+    { 
+        "code":49,
+        "title": "D83DDE05", 
+        "className":"emoji descD83DDE05"
+
+    },
+    { 
+        "code":50,
+        "title": "D83DDE2E", 
+        "className":"emoji descD83DDE2E"
+
+    },
+    { 
+        "code":51,
+        "title": "D83DDE1E", 
+        "className":"emoji descD83DDE1E"
+
+    },
+    { 
+        "code":52,
+        "title": "D83DDE19", 
+        "className":"emoji descD83DDE19"
+
+    },
+    { 
+        "code":53,
+        "title": "D83DDE13", 
+        "className":"emoji descD83DDE13"
+
+    },
+    { 
+        "code":54,
+        "title": "D83DDE01", 
+        "className":"emoji descD83DDE01"
+
+    },
+    { 
+        "code":55,
+        "title": "D83DDE31", 
+        "className":"emoji descD83DDE31"
+
+    },
+    { 
+        "code":56,
+        "title": "D83DDE08", 
+        "className":"emoji descD83DDE08"
+
+    },
+    { 
+        "code":57,
+        "title": "D83DDC7F", 
+        "className":"emoji descD83DDC7F"
+
+    },
+    { 
+        "code":58,
+        "title": "D83DDC7D", 
+        "className":"emoji descD83DDC7D"
+
+    },
+    { 
+        "code":59,
+        "title": "D83DDC4D", 
+        "className":"emoji descD83DDC4D"
+    },
+    { 
+        "code":60,
+        "title": "D83DDC4E", 
+        "className":"emoji descD83DDC4E"
+
+    },
+    { 
+        "code":61,
+        "title": "D83DDC4C", 
+        "className":"emoji descD83DDC4C"
+    },
+    { 
+        "code":62,
+        "title": "D83DDC4F", 
+        "className":"emoji descD83DDC4F"
+
+    },
+    { 
+        "code":63,
+        "title": "D83DDC4A", 
+        "className":"emoji descD83DDC4A"
+
+    },
+    { 
+        "code":64,
+        "title": "D83DDE4F", 
+        "className":"emoji descD83DDE4F"
+
+    },
+    { 
+        "code":65,
+        "title": "D83DDC43", 
+        "className":"emoji descD83DDC43"
+
+    },
+    { 
+        "code":67,
+        "title": "D83DDC46", 
+        "className":"emoji descD83DDC46"
+    },
+    { 
+        "code":68,
+        "title": "D83DDC47", 
+        "className":"emoji descD83DDC47"
+    }
+]

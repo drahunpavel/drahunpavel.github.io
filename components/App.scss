@@ -1,0 +1,158 @@
+.ISocMenu {
+  width: 50px;
+  height: 50px;
+  background-image: url("/src/images/soc_open.png");
+  position: absolute;
+  right: 30px;
+  bottom: 30px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  border-radius: 49px;
+  background-size: 100%;
+  cursor: pointer;
+  z-index: 10000;
+  animation: socMenuOpen 5s infinite;
+}
+
+.ISocMenu:hover {
+  width: 50px;
+  height: 50px;
+  background-image: url("/src/images/soc_open.png");
+  position: absolute;
+  right: 30px;
+  bottom: 30px;
+  background-size: 100%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  border-radius: 49px;
+  cursor: pointer;
+  z-index: 10000;
+  animation: socMenuClose 0.4s 1 forwards;
+}
+
+.ISocMenuClose {
+  width: 50px;
+  height: 50px;
+  background-image: url("/src/images/soc_close.png");
+  position: absolute;
+  right: 30px;
+  bottom: 30px;
+  background-size: 100%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  border-radius: 49px;
+  cursor: pointer;
+  z-index: 10000;
+}
+.ISocMenuClose:hover {
+  width: 50px;
+  height: 50px;
+  background-image: url("/src/images/soc_close.png");
+  position: absolute;
+  right: 30px;
+  bottom: 30px;
+  background-size: 100%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  border-radius: 49px;
+  cursor: pointer;
+  z-index: 10000;
+  animation: socMenuClose 0.8s 1 forwards;
+}
+
+@keyframes socMenuClose {
+  from {
+    transform: scale(1);
+  }
+  to {
+    transform: scale(1.2);
+  }
+}
+@keyframes socMenuOpen {
+  0% {
+    transform: scale(1);
+  }
+  10% {
+    transform: scale(1);
+  }
+  20% {
+    transform: scale(1);
+  }
+  30% {
+    transform: scale(1);
+  }
+  40% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1);
+  }
+  60% {
+    transform: scale(1);
+  }
+  70% {
+    transform: scale(1);
+  }
+  80% {
+    transform: scale(1);
+  }
+  90% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(1.2);
+  }
+}
+
+.menuSelection {
+  width: 50px;
+  height: 50px;
+  background-size: 100%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  border-radius: 50px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  z-index: 10000;
+}
+
+.menuSelection .tooltip {
+  visibility: hidden;
+}
+
+.menuSelection:hover {
+  width: 50px;
+  height: 50px;
+  background-size: 100%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  border-radius: 50px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  animation: socMenuClose 0.2s 1 forwards;
+}
+
+.menuSelection:hover .tooltip {
+  visibility: visible;
+  font-weight: bold;
+}
+
+.SocButtons {
+  width: 50px;
+  position: absolute;
+  right: 30px;
+  bottom: 100px;
+  z-index: 10000;
+}
+
+.tooltip {
+  width: 80px;
+  position: fixed;
+  right: 60px;
+  padding: 3px;
+  border: 1px solid #b3c9ce;
+  border-radius: 4px;
+  text-align: center;
+  font: 14px "Arial", "Tahoma", "Helevetica", sans-serif;
+  color: #333;
+  background: #fff;
+  box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.3);
+  z-index: 10000;
+}
+.tooltip-none {
+  display: none;
+}

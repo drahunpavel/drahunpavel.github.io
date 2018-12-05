@@ -1,0 +1,18 @@
+[
+    { 
+        "code":1,
+        "image": "url(/src/images/smile_bad.png)",
+        "description":"smile_bad"
+
+    },
+    { 
+        "code":2,
+        "image": "url(/src/images/smile_normal.png)",
+        "description":"smile_normal"
+    },
+    { 
+        "code":3,
+        "image": "url(/src/images/smile_good.png)",
+        "description":"smile_good"
+    }
+]
