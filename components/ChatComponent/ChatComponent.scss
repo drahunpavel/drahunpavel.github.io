@@ -1,0 +1,306 @@
+.windowChat{
+    // padding: 5px;
+        .ChatHeader{
+            margin: -30px 0 0 0;
+            height: 35px;
+            width: 92%;
+            // font: 18px/22px "Arial", "Tahoma", "Helevetica", sans-serif;
+            font-weight: 400;
+            color: rgb(255, 255, 255);
+            padding: 8px 5px 5px 20px;
+            background: #2d9d2d;
+        }
+        .ChatMain{
+            // border: 1px solid rgb(6, 43, 250);
+    
+            .BlockWindowWelcome {
+                font: 16px/20px "Arial", "Tahoma", "Helevetica", sans-serif;
+                margin-bottom: 10px;
+                font-weight: 400;
+                margin-top: 16px;
+                margin-left: 20px;
+                color: black;
+            }
+            .BlockWindowFieldLabel {
+                padding: 3px 20px 10px 20px;
+                color: #a6a6a6;
+                font: 12px/18px "Arial", "Tahoma", "Helevetica", sans-serif;
+                margin-bottom: 4px;
+            }
+            .BlockWindowFieldControlFrame {
+                border-bottom: 1px solid #cccccc;
+                background: #ffffff;
+                margin-bottom: 5px;
+                line-height: 1;
+                padding: 4px;
+                color: #666666;
+            }
+            .BlockWindowFieldControlFrameError {
+                border-bottom: 1px solid #df0707;
+                background: #ffffff;
+                margin-bottom: 5px;
+                line-height: 1;
+                padding: 4px;
+                color: #666666;
+            }
+            .BlockWindowFieldEdit {
+                font-size: 16px;
+                line-height: 18px;
+                color: #000;
+                outline: none;
+                height: 18px;
+                border-style: none;
+                font-weight:bold;
+                width: 100%;
+            }
+            .BlockWindowFieldError {
+                position: absolute;
+                color: #f80000;
+                font: 12px/18px "Arial", "Tahoma", "Helevetica", sans-serif;
+                margin-top:-5px;
+            }
+            .BlockWindowFieldErrorDisplayNone {
+                display: none;
+            }
+            .BlockButton{
+                position: absolute;
+                bottom: 60px;
+                width: 50%;
+                height: 35px;
+                margin-left: 25%;
+                margin-bottom: 15px;  
+                border-radius: 5px 5px 5px 5px;
+                background-color: #2d9d2d;  
+                text-decoration: none;
+                user-select: none;
+                border: 1px solid rgba(0,0,0,.1);
+                border-radius: 2px;
+                transition: all .218s ease 0s;  
+                color: #fff;   
+                text-align: center; 
+                font-size: 14px;  
+                cursor: pointer;
+            }
+            .BlockButton:hover{
+                border: 1px solid rgb(198,198,198);
+                box-shadow: 0 1px 2px rgba(0,0,0,.1);
+            }
+            .BlockButton:disabled{
+                background-color: #0f460f;
+                border: 1px solid rgb(150, 150, 150);
+            }
+            .BlockButton:disabled:hover{
+                background-color: #0c3a0c;
+                border: 1px solid rgb(243, 134, 134);
+            }
+            .BlockButton:active{
+                border: 1px solid rgb(204,204,204);
+                background: rgb(45,157,45) linear-gradient(rgb(45,157,45), rgb(39, 136, 39));
+                box-shadow: 0 1px 2px rgba(0,0,0,.1) inset;
+            }
+            .BlockButton:focus{
+                outline: 0;
+                border: 1px solid rgb(150, 150, 150);
+            }
+            .ActiveChat {
+                margin-top: 20px;
+                position: absolute;
+                width: 100%;
+                height: 66px;
+                bottom: 0;
+                text-align: center;
+            }
+            .ActiveChatNone {
+                display: none;
+            }
+
+            .ActiveChatFooterInput {
+                // direction: rtl ;
+                font-size: 14px;
+                line-height: 16px;
+                color: #000;
+                outline: none;
+                height: 27px;
+                border-style: none;
+                font-weight: 600;
+                width: 90%;
+                resize: none;
+                border-bottom: 1px solid rgb(156, 156, 156);
+                border-radius: 5px;
+            }
+            .ActiveChatFooterSelectionSmile {
+                position: absolute;
+                width: 100px;
+                height: 100px;
+            }
+            .ChatWindowAppreciateDialogue {
+                text-align: center;
+            }
+            .ChatWindowAppreciateDialogueNone {
+                display: none;
+            }
+            .DialogueRating1 {
+                padding: 30px;
+            }
+            .DialogueRating2 {
+                position: absolute;
+                top: 200px;
+                width: 100%;
+            }
+            .BlockChatWindowAppreciateDialogueImg2 {
+                // width: 25px;
+                // height: 25px;
+                width: 45px;
+                height: 45px;
+                padding: 10px;
+                margin: 13px;
+                display: inline-block;
+                background-size: 100%;
+                opacity: 0.3; /* Значение прозрачности */
+            }
+            .BlockChatWindowAppreciateDialogueImg {
+                // width: 25px;
+                // height: 25px;
+                width: 45px;
+                height: 45px;
+                padding: 10px;
+                margin: 13px;
+                display: inline-block;
+                cursor: pointer;
+                background-size: 100%;
+            }
+            .BlockChatWindowAppreciateDialogueImg:hover {
+                animation: ChatRating 0.2s 1 forwards;
+            }
+            @keyframes ChatRating {
+                from {
+                    transform: scale(1);
+                }
+                to {
+                    transform: scale(1.2);
+                }
+            }
+            .ChatWindowAppreciateDialogueFooter {
+                width: 100%;
+                position: absolute;
+                bottom: 20px;
+                margin: auto;
+            }
+            .ChatWindowAppreciateDialogueFooterNone {
+                display: none;
+            }
+            .BlockAppreciateDialogueButton {
+                text-align: center;
+                margin: 30px;
+            }
+            .BlockAppreciateDialogueButton .BlockViewButton1 {
+                color: #504f4f;
+                cursor: pointer;
+                font-size: 14px;
+                padding: 15px;
+            }
+            .BlockAppreciateDialogueButton .BlockViewButton1:hover {
+                color: green;
+                cursor: pointer;
+                font-size: 14px;
+                padding: 15px;
+            }
+            .ViewButton2 {
+                color: green;
+                font-size: 16px;
+                height: 46px;
+            }
+            .ViewButton2:hover {
+                color: green;
+                text-decoration: underline;
+                font-size: 16px;
+            }
+            .BlockAppreciateDialogueButton a {
+                padding: 15px;
+                color: green;
+                font-size: 16px;
+                cursor: pointer;
+                text-decoration: none;
+            }
+            .ViewButton2DisplayNone{
+                height: 46px;
+            }
+            // placeholder
+            ::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+                color: #818080;
+                font-size: 10pt;
+                font-weight:normal;
+            }
+            ::-moz-placeholder { /* Firefox 19+ */
+                color: #818080;
+                font-size: 10pt;
+                font-weight:normal;
+            }
+            :-ms-input-placeholder { /* IE 10+ */
+                color: #818080;
+                font-size: 10pt;
+                font-weight:normal;
+            }
+            :-moz-placeholder { /* Firefox 18- */
+                color: #818080;
+                font-size: 10pt;
+                font-weight:normal;
+            }
+            // placeholder end
+            .ErrorMessage {
+                background: #2d9d2d;
+                padding: 10px 10px 10px 50px;
+                font-size: 12px;
+                text-align: left;
+                color: #fff;
+                cursor: default;
+                margin-bottom: 30px;
+            }
+            .ErrorSign {
+                background-image: url("/images/consult-sprt.png");
+                background-position: -32px -24px;
+                margin: 10px 0 0 10px;
+                position: absolute;
+                width: 25px;
+                height: 21px;
+            }
+            .BlockCompleteDialogue{
+                cursor: pointer;
+                width: 180px;
+                margin: 0 auto;
+                a {
+                    color: green;
+                    text-decoration: none;
+                }
+                .CompleteDialogueBefore{
+                    background-image: url("/images/icons8-delete1.png");
+                    background-position: -135px -33.5px;
+                    margin: -0.6px 0 0 0px;
+                    position: absolute;
+                    width: 17px;
+                    height: 17px;
+                    background-size: cover;
+                    display: flex;
+                    justify-content: center;
+                }
+
+            }
+            .BlockCompleteDialogue:hover{
+                a{
+                    text-decoration: underline;
+                    color: #a3a3a3;
+                }
+                .CompleteDialogueBefore{
+                    background-image: url("/images/icons8-delete2.png");
+                    background-position: -135px -33.5px;
+                    margin: -0.6px 0 0 0px;
+                    position: absolute;
+                    width: 17px;
+                    height: 17px;
+                    background-size: cover;
+                    display: flex;
+                    justify-content: center;
+                }                
+            }
+        }
+    }

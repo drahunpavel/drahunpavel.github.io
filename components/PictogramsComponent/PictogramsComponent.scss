@@ -1,0 +1,204 @@
+body {
+  min-height: 380px;
+}
+
+.testPanel{
+  min-height: 2000px;
+  width: 500px;
+  border: 4px double blueviolet; 
+
+  button{
+    color:blue;
+    cursor: pointer;
+    border: 1px solid black;
+  }
+
+  p{
+    margin: 0.5px;
+  }
+}
+
+.IconsMenuOpen {
+  width: 50px;
+  height: 50px;
+  //background-image: url("/src/images/soc_open.png");
+  background-image: url("/images/soc_open.png");
+  position: fixed;
+  // right: 30px;
+  right: 130px;
+  bottom: 50px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  border-radius: 49px;
+  background-size: 100%;
+  cursor: pointer;
+  z-index: 10000;
+  animation: socMenuOpen 5s infinite;
+}
+
+.IconsMenuOpen:hover {
+  width: 50px;
+  height: 50px;
+  background-image: url("/images/soc_open.png");
+  position: fixed;
+  right: 130px;
+  bottom: 50px;
+  background-size: 100%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  border-radius: 49px;
+  cursor: pointer;
+  z-index: 10000;
+  animation: socMenuClose 0.4s 1 forwards;
+}
+
+.IconsMenuClose {
+  width: 50px;
+  height: 50px;
+  background-image: url("/images/soc_close.png");
+  position: fixed;
+  right: 130px;
+  bottom: 50px;
+  background-size: 100%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  border-radius: 49px;
+  cursor: pointer;
+  z-index: 10000;
+}
+.IconsMenuClose:hover {
+  width: 50px;
+  height: 50px;
+  background-image: url("/images/soc_close.png");
+  position: fixed;
+  right: 130px;
+  bottom: 50px;
+  background-size: 100%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  border-radius: 49px;
+  cursor: pointer;
+  z-index: 10000;
+  animation: socMenuClose 0.8s 1 forwards;
+}
+
+.unreadMessages{
+  position: fixed;
+  // bottom: 85px;
+	width: 20px;
+	height: 20px;
+	background: red;
+  border-radius: 50px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
+  font-size: 14px;
+  color: white;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 10001;
+
+  animation: socMenuClose 1s infinite;
+}
+.unreadMessagesNone{
+  display: none;
+}
+
+@keyframes socMenuClose {
+  from {
+    transform: scale(1);
+  }
+  to {
+    transform: scale(1.2);
+  }
+}
+@keyframes socMenuOpen {
+  0% {
+    transform: scale(1);
+  }
+  10% {
+    transform: scale(1);
+  }
+  20% {
+    transform: scale(1);
+  }
+  30% {
+    transform: scale(1);
+  }
+  40% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1);
+  }
+  60% {
+    transform: scale(1);
+  }
+  70% {
+    transform: scale(1);
+  }
+  80% {
+    transform: scale(1);
+  }
+  90% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(1.2);
+  }
+}
+
+.Pictograms {
+  width: 50px;
+  position: fixed;
+  //right: 30px;
+  right: 130px;
+  bottom: 100px;
+  z-index: 10000;
+}
+.PictogramSelected {
+  width: 50px;
+  height: 50px;
+  border: 1px solid rgb(255, 255, 255);
+  background-size: 100%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  border-radius: 50px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  z-index: 10000;
+}
+
+.PictogramSelected .IconDescription {
+  visibility: hidden;
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none; /* Safari */
+   -khtml-user-select: none; /* Konqueror HTML */
+     -moz-user-select: none; /* Firefox */
+      -ms-user-select: none; /* Internet Explorer/Edge */
+          user-select: none; /* Non-prefixed version, currently
+                                supported by Chrome and Opera */
+}
+
+.PictogramSelected:hover {
+
+  animation: socMenuClose 0.2s 1 forwards;
+}
+
+.PictogramSelected:hover .IconDescription {
+  visibility: visible;
+  font-weight: bold;
+}
+
+.IconDescription {
+  width: 100px;
+  position: fixed;
+  right: 60px;
+  padding: 5px;
+  border: 1px solid #b3c9ce;
+  border-radius: 4px;
+  text-align: center;
+  font: 12px "Arial", "Tahoma", "Helevetica", sans-serif;
+  color: #333;
+  background: #fff;
+  box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.3);
+  z-index: 10000;
+}
+.IconDescriptionNone {
+  display: none;
+}

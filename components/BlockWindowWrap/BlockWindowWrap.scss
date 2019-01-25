@@ -1,0 +1,150 @@
+.BlockWindowWrap-false {
+  top: 100px;
+  left: 300px;
+  position: fixed;
+  display: block;
+  animation: in 0.5s;
+
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  border-radius: 5px;
+  background: rgb(255, 255, 255);
+  height: 300px;
+  width: 300px;
+
+  //запрещает выделение текста
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none; /* Safari */
+  -khtml-user-select: none; /* Konqueror HTML */
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none; /* Internet Explorer/Edge */
+  user-select: none; /* Non-prefixed version, currently
+                      supported by Chrome and Opera */
+
+.header {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    border-radius: 5px 5px 0 0;
+    height: 30px;
+    // background: #2d9d2d;
+    cursor: move;
+  }
+
+  .main {
+    // border: 1px solid black;
+    margin: 30px 0px;
+  }
+
+
+  .resizeBtnBR {
+    width: 15px;
+    height: 15px;
+    background-image: url("/images/resizeR.png");
+    position: absolute;
+    right: 0;
+    bottom: 0px;
+    cursor: se-resize;
+    background-size: 100%;
+  }
+  .resizeBtnBL {
+    width: 15px;
+    height: 15px;
+    background-image: url("/images/resizeR.png");
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    cursor: nesw-resize;
+    transform: scale(-1, 1);
+    background-size: 100%;
+  }
+
+  .close {
+    width: 25px;
+    height: 25px;
+    padding: 24px 0 0 0;
+    background-image: url("/images/close.png");
+    position: absolute;
+    right: 18px;
+    top: 9px;
+    cursor: pointer;
+    background-repeat:no-repeat;
+    background-position: 50% 12%;
+    background-size: 21px 10px;
+  }
+}
+
+@keyframes in{
+  0%{opacity: 0;}
+  100%{opacity: 1;}
+}
+
+.BlockWindowWrap-true {
+  display: none;
+  position: absolute;
+  animation: out 0.5s;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  border-radius: 5px;
+  background: rgb(255, 255, 255);
+  position: fixed;
+  //запрещает выделение текста
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none; /* Safari */
+  -khtml-user-select: none; /* Konqueror HTML */
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none; /* Internet Explorer/Edge */
+  user-select: none; /* Non-prefixed version, currently
+                      supported by Chrome and Opera */
+  .header {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    border-radius: 5px 5px 0 0;
+    height: 30px;
+    // background: #2d9d2d;
+    cursor: move;
+  }
+                    
+  .main {
+    // border: 1px solid black;
+    margin: 30px 0px;
+  }
+  .resizeBtnBR {
+    width: 15px;
+    height: 15px;
+    background-image: url("/images/resizeR.png");
+    position: absolute;
+    right: 0;
+    bottom: 0px;
+    cursor: se-resize;
+    background-size: 100%;
+  }
+  .resizeBtnBL {
+    width: 15px;
+    height: 15px;
+    background-image: url("/images/resizeR.png");
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    cursor: nesw-resize;
+    transform: scale(-1, 1);
+    background-size: 100%;
+  }
+  .close {
+    width: 25px;
+    height: 25px;
+    padding: 24px 0 0 0;
+    background-image: url("/images/close.png");
+    position: absolute;
+    right: 20px;
+    top: 7px;
+    cursor: pointer;
+    background-repeat:no-repeat;
+    background-position: 50% 12%;
+    background-size: 21px 10px;
+  }
+}
+
+@keyframes out{
+  0%{opacity: 1;}
+  100%{opacity: 0;}
+}

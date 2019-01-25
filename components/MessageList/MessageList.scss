@@ -1,0 +1,263 @@
+.BlockChatWindowDisplayMessages {
+  overflow-y: scroll;
+  // height: 100%;
+  height:330px;
+  // border: 1px solid red;
+}
+.BlockChatWindowDisplayMessagesNone {
+  display: none;
+}
+
+//spinner
+.BlockLoad{
+  position:absolute;
+  top:50%;
+  left:50%;
+  transform:translate(-50%, -50%);
+  /*change these sizes to fit into your project*/
+  width:50px;
+  height:50px;
+}
+.BlockLoad hr{
+  border:0;
+  margin:0;
+  width:40%;
+  height:40%;
+  position:absolute;
+  border-radius:50%;
+  animation:spin 2s ease infinite
+}
+
+.BlockLoad :first-child{background:#b0b0b0;animation-delay:-1.5s}
+.BlockLoad :nth-child(2){background:#c3efb3;animation-delay:-1s}
+.BlockLoad :nth-child(3){background:#2d9d2d;animation-delay:-0.5s}
+.BlockLoad :last-child{background:#eeeff2}
+
+@keyframes spin{
+  0%,100%{transform:translate(0)}
+  25%{transform:translate(160%)}
+  50%{transform:translate(160%, 160%)}
+  75%{transform:translate(0, 160%)}
+}
+///////////spinner end
+
+
+/////////////////////////////////////////////////////
+//вид сообщений
+
+.BlockMessageList {
+  height: 17%;
+  list-style-type: none;
+  //margin-top:20px;
+  //padding-top:20px;
+  //padding-inline-start:5px;
+}
+.BlockMessage {
+  //border: 1px solid red;
+  //margin: 5px 5px 5px -25px;
+  margin:5px 5px 5px 10px;
+  white-space:pre-line;
+  //min-height: 50px;
+}
+
+.BlockMessageContent {
+  width: 99%;
+  //margin: 10px 0 10px 0;
+}
+
+.BlockLogoOperator {  
+  height: 40px;
+  width: 40px;
+  float: left;
+  background: green;
+  background-size: 100%;
+  border-radius: 50%;
+}
+
+.BlockMessageOperator {
+  height: auto;
+  background: #eeeff2;
+  // background: white;
+  margin: 10px 15px 10px 40px;
+  font-size: 15px;
+  font-weight: normal;
+  color: rgb(80, 74, 42);
+  padding: 10px 12px 15px 16px;
+  border-radius: 20px;
+  min-height: 40px;
+      // выделение текста
+      -webkit-touch-callout: text; /* iOS Safari */
+      -webkit-user-select: text; /* Safari */
+      -khtml-user-select: text; /* Konqueror HTML */
+      -moz-user-select: text; /* Firefox */
+      -ms-user-select: text; /* Internet Explorer/Edge */
+      user-select: text; /* Non-prefixed version, currently
+                          supported by Chrome and Opera */
+}
+.BlockMessageOperatorPointer{
+  // border: 1px solid black;
+  width: 29px;
+  height: 50px;
+  float: left;
+  margin: 0 0 0 -18px;
+}
+.PointerOperator{
+  -moz-transform: scale(1, -1); /* Для Firefox */
+  -ms-transform: scale(1, -1); /* Для IE */
+  -webkit-transform: scale(1, -1); /* Для Safari, Chrome, iOS */
+  -o-transform: scale(1, -1); /* Для Opera */
+  transform:scale(1, -1);
+  background: url("/images/commentE.png") no-repeat;
+  width: 27px;
+  height: 23px;
+}
+
+.BlockMessage .BlockMessageOperatorNameTimeOperator{
+  float: right;
+  color: #777;
+  font-size:12px;
+  margin-right: 5px;
+  margin-top:-10px;
+}
+.BlockMessage .BlockMessageOperatorNameTimeUser{
+  float: right;
+  color: #777;
+  font-size:12px;
+  margin-right: 5px;
+  margin-top: 15px;
+}
+.BlockLogoUser {
+  height: 40px;
+  width: 40px;
+  float: right;
+  background-size: 100%;
+  border-radius: 50%;
+}
+.BlockMessageUser {
+  height: auto;
+  background: #c3efb3;
+  margin: 10px 40px 10px 15px;
+  font-size: 15px;
+  font-weight: normal;
+  color: rgb(80, 74, 42);
+  padding: 10px 16px 35px 12px;
+  border-radius: 20px;
+  min-height: 40px;
+  word-break: break-all;
+  // overflow: hidden;
+
+    // выделение текста
+    -webkit-touch-callout: text; /* iOS Safari */
+    -webkit-user-select: text; /* Safari */
+    -khtml-user-select: text; /* Konqueror HTML */
+    -moz-user-select: text; /* Firefox */
+    -ms-user-select: text; /* Internet Explorer/Edge */
+    user-select: text; /* Non-prefixed version, currently
+                        supported by Chrome and Opera */
+}
+.BlockMessageUserPointer{
+  width: 29px;
+  height: 50px;
+  float: right;
+  margin: 0 -19px 0 0px;
+}
+
+.PointerUser{
+  -moz-transform: scale(1, -1); /* Для Firefox */
+  -ms-transform: scale(1, -1); /* Для IE */
+  -webkit-transform: scale(1, -1); /* Для Safari, Chrome, iOS */
+  -o-transform: scale(1, -1); /* Для Opera */
+  transform:scale(1, -1);
+  background: url("/images/comment.png") no-repeat;
+  width: 35px;
+  height: 23px;
+  margin: 0 0px 0 -11px;
+  position: relative;
+}
+
+.BlockMessageSystem {
+  height: auto;
+  width: 100%;
+  font-size: 11px;
+  font-weight: normal;
+  color: #8f8f8f;
+  padding: 10px;
+  border-radius: 8px;
+  text-align:center;
+}
+.BlockMessageOperatorConnect {
+  height: auto;
+  width: 100%;
+  font-size: 11px;
+  font-weight: normal;
+  color: #919090;
+  padding: 4px;
+  border-radius: 8px;
+  text-align:center;
+}
+.BlockMessageAgentTyping {
+  // border: 1px solid black;
+  height: auto;
+  width: 100%;
+  bottom: 68px;
+  font-size: 11px;
+  font-weight: normal;
+  color: #bdbbbb;
+  padding: 4px;
+  border-radius: 8px;
+  text-align:center;
+  position:absolute;
+  bottom:70 px;
+}
+// .BlockMessageAgentTypingNone{
+//   display: none;
+// }
+.chatErrorMessage{
+  z-index: 2;
+  margin: 0 20px 0 20px;
+  color: red;
+  background: #eeeff2;
+  border-radius: 3px;
+}
+.BlockMessageButtons{
+  background: #b0b0b0;
+  color:white;
+  width:85%;
+  //margin: 15px 0 0 0;
+  margin: 6px auto;
+  text-align: center;
+  border-radius: 7px;
+  height: 30px;
+  padding-top: 7px;
+}
+.BlockMessageButtons:hover{
+  cursor:pointer;
+  box-shadow: 0 0 3px rgba(0,0,0,0.5);
+};
+
+
+
+
+///////////////////////////////////////
+//scroll
+::-webkit-scrollbar {
+  width: 7px;
+}
+::-webkit-scrollbar-thumb {
+  border-width: 1px 1px 1px 2px;
+  border-color: #777;
+  background-color: #aaa;
+}
+::-webkit-scrollbar-thumb:hover {
+  border-width: 1px 1px 1px 2px;
+  border-color: rgb(216, 216, 216);
+  background-color: #777;
+}
+::-webkit-scrollbar-track {
+  border-width: 0;
+}
+::-webkit-scrollbar-track:hover {
+  border-left: solid 1px #aaa;
+  background-color: #eee;
+}
+//////////////////////////////////////

@@ -1,0 +1,189 @@
+[contentEditable=true]:empty:not(:focus):before{
+  font-size: 14px;
+  content:attr(data-text)
+}
+
+div[contenteditable=true] img {
+  height: 16px;
+  margin: 0 4px;
+  cursor:text;
+}
+
+div[contenteditable=true] {
+  overflow-x: hidden;
+  overflow-y: auto;
+  word-wrap: break-word;//word-wrap указывает, переносить или нет длинные слова, которые не помещаются по ширине в заданную область
+  cursor: text;
+}
+.BlockActiveChatEntryField {
+  left: 0;
+  margin-top: 12px;
+  border-bottom: 1px solid #cccccc;
+  border-radius: 0 0 5px 5px;
+  background: #ffffff;
+  margin-bottom: 5px;
+  line-height: 1;
+  padding: 2px;
+  color: #666666;
+  box-shadow: 0 0 10px rgba(65, 64, 64, 0.5);
+}
+.BlockActiveChatFooterSmileDisabled {
+  width: 25px;
+  height: 25px;
+  background-image: url("/images/openSmile.png");
+  position: absolute;
+  bottom: 4px;
+  right: 50px;
+  // cursor: pointer;
+  background-size: 100%;
+}
+.BlockActiveChatFooterSmile {
+  width: 25px;
+  height: 25px;
+  background-image: url("/images/openSmile.png");
+  position: absolute;
+  bottom: 4px;
+  right: 50px;
+  cursor: pointer;
+  background-size: 100%;
+}
+.BlockActiveChatFooterSmile:hover {
+  width: 27px;
+  height: 27px;
+  background-image: url("/images/openSmile2.png");
+}
+.BlockActiveChatFooterSmileActive {
+  width: 27px;
+  height: 27px;
+  background-image: url("/images/openSmile2.png");
+  position: absolute;
+  bottom: 4px;
+  right: 50px;
+  cursor: pointer;
+  background-size: 100%;
+}
+.BlockActiveChatFooterButtonDisabled {
+  width: 25px;
+  height: 25px;
+  background-image: url("/images/arrow.png");
+  position: absolute;
+  bottom: 4px;
+  right: 12px;
+  //cursor: pointer;
+  background-size: 100%;
+}
+.BlockActiveChatFooterButton {
+  width: 25px;
+  height: 25px;
+  background:url("/images/arrow2.png");
+  position: absolute;
+  bottom: 4px;
+  right: 12px;
+  cursor: pointer;
+  background-size: 100%;
+}
+.BlockActiveChatFooterButton:hover {
+  width: 27px;
+  height: 27px;
+}
+.BlockActiveChatEntryFieldText {
+  overflow-y: scroll;
+  text-align: left;
+  height: 30px;
+  margin: 0px 0px 0px 2px;
+  border-bottom:1px solid #aaaaaa;
+  border-radius: 1px;
+}
+
+.BlockMessageFieldDisabled{
+  background: #f1f3f4;
+  outline:none;
+  height: 100%;//для закрашивания поля ввода
+  padding-left: 1px;
+  padding-right: 1px;
+  //border: 6px solid rgb(57, 57, 57);
+  margin: 0.2em 0;
+  line-height: 1.3em;
+  -webkit-appearance: textfield;
+  appearance: textfield;
+}
+.BlockMessageField{
+  outline:none;
+  padding-left: 1px;
+  padding-right: 1px;
+  border: 0px solid rgb(57, 57, 57);
+  margin: 0.2em 0;
+  padding: 5px;
+  line-height: 1.3em;
+  -webkit-appearance: textfield;
+  appearance: textfield;
+}
+.Emoji_Input {
+  display: block;
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+.Emoji_Input > div[contenteditable=true] {
+  display: block;
+  position:relative;
+  z-index:10;
+  box-sizing: border-box;
+  height: 100%;
+  padding: 10px;
+  padding-right: 20px;
+  background:#fff;
+  font-size: 14px;
+  outline: none;
+  border-radius: 4px 4px 0 0 ;
+  line-height: 150%;
+  overflow-x: hidden;
+  overflow-y: auto;
+  word-wrap: break-word;
+  cursor: text;
+}
+.Emoji_Input > div[contenteditable=true] img {
+  height: 16px;
+  margin: 0 4px;
+  cursor:text;
+}
+
+
+      ///////////////////////////////////////
+  //scroll
+  .BlockActiveChatEntryFieldText::-webkit-scrollbar-button{
+    color:red
+  }
+
+  .BlockActiveChatEntryFieldText::-webkit-scrollbar {
+    // width: 7px;
+    display: none;
+  }
+  .BlockActiveChatEntryFieldText::-webkit-scrollbar-thumb {
+    // border-width: 1px 1px 1px 2px;
+    // border-color: #777;
+    // background-color: #aaa;
+    display: none;
+  }
+  .BlockActiveChatEntryFieldText {
+    -ms-overflow-style: none;  // IE 10+
+    overflow: -moz-scrollbars-none;  // Firefox
+}
+  .BlockActiveChatEntryFieldText::-webkit-scrollbar { 
+      display: none;  // Safari and Chrome
+  }
+
+  .BlockActiveChatEntryFieldText::-webkit-scrollbar-thumb:hover {
+    border-width: 1px 1px 1px 2px;
+    border-color: rgb(216,216,216);
+    background-color: #777;
+  }
+  .BlockActiveChatEntryFieldText::-webkit-scrollbar-track {
+    //border-width: 0;
+    display: none;
+  }
+  .BlockActiveChatEntryFieldText::-webkit-scrollbar-track:hover {
+    border-left: solid 1px #aaa;
+    background-color: #eee;
+  }
+  //////////////////////////////////////

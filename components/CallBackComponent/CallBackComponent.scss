@@ -1,0 +1,233 @@
+.windowCallBack{
+// padding: 5px;
+    .CallBackHeader{
+        margin: -30px 0 0 0;
+        height: 35px;
+        width: 92%;
+        // font: 18px/22px "Arial", "Tahoma", "Helevetica", sans-serif;
+        font-weight: 400;
+        color: rgb(255, 255, 255);
+        padding: 8px 5px 5px 20px;
+        background: #2d9d2d;
+    }
+    .CallBackMain{
+        // border: 1px solid rgb(6, 43, 250);
+
+        .BlockWindowWelcome {
+            font: 16px/20px "Arial", "Tahoma", "Helevetica", sans-serif;
+            margin-bottom: 10px;
+            font-weight: 400;
+            margin-top: 16px;
+            margin-left: 20px;
+            color: black;
+        }
+        .BlockWindowFieldLabel {
+            padding: 3px 20px 10px 20px;
+            color: #a6a6a6;
+            font: 12px/18px "Arial", "Tahoma", "Helevetica", sans-serif;
+            margin-bottom: 4px;
+        }
+        .schedule{
+            font: 11px/18px "Arial", "Tahoma", "Helevetica", sans-serif;
+        }
+        .BlockWindowFieldControlFrame {
+            border-bottom: 1px solid #cccccc;
+            background: #ffffff;
+            margin-bottom: 5px;
+            line-height: 1;
+            padding: 4px;
+            color: #666666;
+        }
+        .BlockWindowFieldControlFrameError {
+            border-bottom: 1px solid #df0707;
+            background: #ffffff;
+            margin-bottom: 5px;
+            line-height: 1;
+            padding: 4px;
+            color: #666666;
+        }
+        .BlockWindowFieldEdit {
+            font-size: 16px;
+            line-height: 18px;
+            color: #000;
+            outline: none;
+            height: 18px;
+            border-style: none;
+            font-weight:bold;
+            width: 100%;
+        }
+        .BlockWindowFieldError {
+            position: absolute;
+            color: #f80000;
+            font: 11px/13px "Arial", "Tahoma", "Helevetica", sans-serif;
+            margin-top:-5px;
+        }
+        .BlockWindowFieldErrorDisplayNone {
+            display: none;
+        }
+        .StrongStyle {
+            color: #504f4f;
+        }
+        .BlockButton{
+            position: absolute;
+            bottom: 5px;
+            width: 50%;
+            height: 35px;
+            margin-left: 25%;
+            margin-bottom: 15px;  
+            background-color: #2d9d2d;  
+            text-decoration: none;
+            user-select: none;
+            border: 1px solid rgba(0,0,0,.1);
+            border-radius: 3px;
+            transition: all .218s ease 0s;  
+            color: #fff;   
+            text-align: center; 
+            font-size: 14px;  
+            cursor: pointer;
+        }
+        .BlockButton:hover{
+            border: 1px solid rgb(198,198,198);
+            box-shadow: 0 1px 2px rgba(0,0,0,.1);
+        }
+        .BlockButton:disabled{
+            background-color: #0f460f;
+            border: 1px solid rgb(150, 150, 150);
+        }
+        .BlockButton:disabled:hover{
+            background-color: #0c3a0c;
+            border: 1px solid rgb(243, 134, 134);
+        }
+        .BlockButton:active{
+            border: 1px solid rgb(204,204,204);
+            background: rgb(45,157,45) linear-gradient(rgb(45,157,45), rgb(39, 136, 39));
+            box-shadow: 0 1px 2px rgba(0,0,0,.1) inset;
+        }
+        .BlockButton:focus{
+            outline: 0;
+            border: 1px solid rgb(150, 150, 150);
+        }
+        .BlockButton2{
+            position: absolute;
+            bottom: 40px;
+            width: 50%;
+            height: 35px;
+            margin-left: 25%;
+            margin-bottom: 15px;  
+            background-color: #2d9d2d;  
+            text-decoration: none;
+            user-select: none;
+            border: 1px solid rgba(0,0,0,.1);
+            border-radius: 3px;
+            transition: all .218s ease 0s;  
+            color: #fff;   
+            text-align: center; 
+            font-size: 14px;  
+            cursor: pointer;
+        }
+        .BlockButton2:hover{
+            border: 1px solid rgb(198,198,198);
+            box-shadow: 0 1px 2px rgba(0,0,0,.1);
+        }
+        .BlockButton2:active{
+            border: 1px solid rgb(204,204,204);
+            background: rgb(45,157,45) linear-gradient(rgb(45,157,45), rgb(39, 136, 39));
+            box-shadow: 0 1px 2px rgba(0,0,0,.1) inset;
+        }
+        .BlockButton2:focus{
+            outline: 0;
+            border: 1px solid rgb(150, 150, 150);
+        }
+        .ThanksCallBackImg {
+            width: 141px;
+            height: 231px;
+            margin-left: 15px;
+            margin-top: 40px;
+            background-image: url("/images/callback.jpg");
+            background-size: 100%;
+        }
+        .RenderThanksText {
+            font: 16px/22px "Arial", "Tahoma", "Helevetica", sans-serif;
+            position: absolute;
+            left: 155px;
+            top: 80px;
+            font-weight: 400;
+        }
+        .ErrorMessage {
+            background: #2d9d2d;
+            padding: 10px 10px 10px 50px;
+            font-size: 12px;
+            text-align: left;
+            color: #fff;
+            cursor: default;
+            margin-bottom: 30px;
+        }
+        .ErrorSign {
+            background-image: url("/images/consult-sprt.png");
+            background-position: -32px -24px;
+            margin: 10px 0 0 10px;
+            position: absolute;
+            width: 25px;
+            height: 21px;
+        }
+        option{
+            font: 14px/18px "Arial", "Tahoma", "Helevetica", sans-serif;
+        }
+        option:checked{
+            background: #ccf0d0;
+        }
+        // //spinner
+        .BlockLoad{
+            position:absolute;
+            top:50%;
+            left:50%;
+            transform:translate(-50%, -50%);
+            width:50px;
+            height:50px;
+        }
+        .BlockLoad hr{
+            border:0;
+            margin:0;
+            width:40%;
+            height:40%;
+            position:absolute;
+            border-radius:50%;
+            animation:spin 2s ease infinite
+        }
+
+        .BlockLoad :first-child{background:#b0b0b0;animation-delay:-1.5s}
+        .BlockLoad :nth-child(2){background:#c3efb3;animation-delay:-1s}
+        .BlockLoad :nth-child(3){background:#2d9d2d;animation-delay:-0.5s}
+        .BlockLoad :last-child{background:#eeeff2}
+
+        @keyframes spin{
+        0%,100%{transform:translate(0)}
+        25%{transform:translate(160%)}
+        50%{transform:translate(160%, 160%)}
+        75%{transform:translate(0, 160%)}
+        }
+        // ///////////spinner end
+            // placeholder
+            ::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+                color: #a5a4a4;
+                font-size: 10pt;
+                font-weight:normal;
+            }
+            ::-moz-placeholder { /* Firefox 19+ */
+                color: #a5a4a4;
+                font-size: 10pt;
+                font-weight:normal;
+            }
+            :-ms-input-placeholder { /* IE 10+ */
+                color: #a5a4a4;
+                font-size: 10pt;
+                font-weight:normal;
+            }
+            :-moz-placeholder { /* Firefox 18- */
+                color: #a5a4a4;
+                font-size: 10pt;
+                font-weight:normal;
+            }
+            // placeholder end
+    }
+}

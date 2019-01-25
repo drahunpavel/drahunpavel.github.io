@@ -1,47 +1,53 @@
-.WindowSmilies{
-    width: 253px;
-    height: 218px;
-    position: absolute;
-    padding: 3px;
-    border: 1px solid green;
-    bottom:45px;
-    right:22px;
-  }
-  .WindowSmiliesNone{
-    display: none,
-  }
-
-
-
- .Emoji_Smile {
+.BlockWindowSmilies{
+  width: 225px;
+  height: 200px;
+  // width: 0px;
+  // height: 0px;
+  position: absolute;
+  padding: 3px;
+  border: 1px solid;
+  border-color: #2d9d2d;
+  border-radius: 5px;
+  bottom:45px;
+  right:22px;
+  opacity:1;
+  transition: opacity 0.8s ease-out;
+}
+.BlockWindowSmiliesNone{
+  // display: none;
+  opacity:0;
+  visibility: hidden;
+}
+.Emoji_Smile {
   float: left;
-  padding: 1px;
+  // padding: 1px;
   cursor: pointer;
 }
-
 .Emoji_Smile > div {
-  width: 26px;
-  height: 26px;
+  width: 24px;
+  height: 24px;
   line-height: 26px;
   text-align: center;
 }
-
- .Emoji_Smile > div i {
+.Emoji_Smile > div i {
   display:inline-block;
   margin-top: 5px;
-  
 }
  .Emoji_Smile > div:hover {
-  background: rgb(87,142,0);
+  background: #2d9d2d;
   border-radius: 2px;
 }
-  
+
+
+
 .emoji{
   width:16px;
   height:16px;
-  background:url("/src/images/emoji.png");
+  background:url("/images/emoji.png");
 }
-      
+    
+
+
 
 .desc23F0{
   background-position: -0px -0px;

@@ -1,18 +1,18 @@
 [
     { 
         "code":1,
-        "image": "url(/src/images/smile_bad.png)",
-        "description":"smile_bad"
+        "image": "url(/bps-chat/images/images/smile_bad.png)",
+        "description":"1"
 
     },
     { 
         "code":2,
-        "image": "url(/src/images/smile_normal.png)",
-        "description":"smile_normal"
+        "image": "url(/bps-chat/images/images/smile_normal.png)",
+        "description":"3"
     },
     { 
         "code":3,
-        "image": "url(/src/images/smile_good.png)",
-        "description":"smile_good"
+        "image": "url(/bps-chat/images/images/smile_good.png)",
+        "description":"5"
     }
 ]

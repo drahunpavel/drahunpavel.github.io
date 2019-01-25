@@ -2,48 +2,48 @@
     { 
         "code":1,
         "id": "CallBack", 
-        "image": "url(/src/images/callback.png)",
-        "image2": "url(/src/images/callback-changed.png)",
+        "image": "url(images/callback.png)",
+        "image2": "url(/images/callback-changed.png)",
         "hint": "Заказать звонок", 
         "way": ""
     },
     { 
         "code":2,
         "id": "Mail", 
-        "image": "url(/src/images/mail.png)",
-        "image2": "url(/src/images/mail-changed.png)",
+        "image": "url(/images/mail.png)",
+        "image2": "url(/images/mail-changed.png)",
         "hint": "Отправить вопрос на Email", 
         "way": ""
     },
     { 
         "code":3,
         "id": "Chat", 
-        "image": "url(/src/images/chat.png)",
-        "image2": "url(/src/images/chat-changed.png)",
+        "image": "url(/images/chat.png)",
+        "image2": "url(/images/chat-changed.png)",
         "hint": "Чат с банком", 
         "way": ""
     },
-    { 
+    {
         "code":4,
         "id": "SocMenuTelegram", 
-        "image": "url(/src/images/telegram.png)",
-        "image2": "url(/src/images/callback-changed.png)",
+        "image": "url(/images/telegram.png)",
+        "image2": "url(/images/callback-changed.png)",
         "hint": "Написать в Telegram", 
         "way": "http://telegram.me/BPS_SBERBANKBOT"
     },
     { 
         "code":5,
         "id":"SocMenuFacebook",
-        "image": "url(/src/images/facebook.png)",
-        "image2": "url(/src/images/callback-changed.png)",
+        "image": "url(/images/facebook.png)",
+        "image2": "url(/images/callback-changed.png)",
         "hint": "Написать в Messenger", 
         "way": "https://www.messenger.com/t/sberbank.bps"
     },
     { 
         "code":6,
         "id": "SocMenuViber", 
-        "image": "url(/src/images/viber.png)",
-        "image2": "url(/src/images/callback-changed.png)",
+        "image": "url(/images/viber.png)",
+        "image2": "url(/images/callback-changed.png)",
         "hint": "Написать в Viber", 
         "way": "viber://pa?chatURI=bps-sberbank"
     }

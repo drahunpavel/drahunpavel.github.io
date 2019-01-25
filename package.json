@@ -1,0 +1,40 @@
+{
+  "name": "",
+  "version": "1.0.0",
+  "description": "",
+  "main": "App.js",
+  "scripts": {
+    "livebuild": "cross-env NODE_ENV=development ./node_modules/.bin/webpack-dev-server --progress --colors",
+    "build": "cross-env NODE_ENV=production ./node_modules/.bin/webpack --progress"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "css-loader": "^0.28.11",
+    "style-loader": "^0.21.0",
+    "mini-css-extract-plugin": "^0.4.1",
+    "webpack-cli": "^3.1.0",
+    "webpack": "^4.16.5",
+    "webpack-dev-server": "^3.1.5",
+    "uglifyjs-webpack-plugin": "^1.3.0",
+    "sass-loader": "^7.0.1",
+    "node-sass": "^4.9.0",
+    "babel-polyfill": "^6.26.0",
+    "redux-devtools-extension": "^2.13.7",
+    "cross-env": "^5.2.0",
+    "prop-types": "^15.6.2"
+  },
+  "dependencies": {
+    "react": "^16.5.2",
+    "react-dom": "^16.5.2",
+    "redux": "^4.0.1",
+    "react-redux": "^5.0.7",
+    "redux-thunk": "^2.3.0",
+    "react-router-dom": "^4.3.1"
+  }
+}
