@@ -26,13 +26,11 @@
 							<ul>
 								<li class="special">
 									<a href="#menu" class="menuToggle"><span>Menu</span></a>
-
 									<script>
 										var link = document.querySelector('link[rel=import]');
 										var content = link.import.querySelector('#menu');
 										document.body.appendChild(content.cloneNode(true));
 									</script>
-
 								</li>
 							</ul>
 						</nav>
@@ -43,11 +41,42 @@
 						<div class="inner">
 							<h2>Iranskaiapishmanie</h2>
 							<p>Любовь в первого раза</p>
-							<ul class="actions special">
-								<li><a target="_blank" href="https://www.instagram.com/stories/highlights/18058638631183446/?hl=ru" class="button">Отзывы</a></li>
-								<li><a target="_blank" href="https://www.instagram.com/stories/highlights/18024097471220957/?hl=ru" class="button">Составы</a></li>
-								<li><a target="_blank" href="https://www.instagram.com/stories/highlights/18062426842130929/?hl=ru" class="button">Ассортимент</a></li>
-							</ul>
+						</div>
+						<a href="#one" class="more scrolly">Провести розыгрыш</a>
+					</section>
+
+				<!-- One -->
+					<section id="one" class="wrapper style1 special">
+						<div class="inner">
+							<header class="major">
+								<div id="drop" class="drop">Drop a spreadsheet file here to see sheet data</div>
+							</header>
+							<div class="displNone">
+								<select name="format" onchange="setfmt()">
+									<option value="csv"> CSV</option>
+									<option value="json" selected> JSON</option>
+									<option value="form"> FORMULAE</option>
+									<option value="html" > HTML</option>
+								</select>
+								<!-- <input type="file" name="xlfile" id="xlf" /> -->
+								<input type="checkbox" name="useworker" checked>
+								<input type="checkbox" name="userabs" checked>
+							</div>
+						
+							<p>Все участники</p>
+							<pre id="out"></pre>
+							<div id="htmlout"></div>
+
+							<!-- Modal Trigger -->
+							<a class="waves-effect waves-light btn modal-trigger" onclick="startGeneration()" href="#modal1">Выбрать победителя</a>
+							<!-- Modal Structure -->
+							<div id="modal1" class="modal">
+								<div id='modalContent' class="modal-content">
+								</div>
+								<div class="modal-footer">
+									<a href="#!" class="modal-close waves-effect waves-green btn-flat">Закрыть</a>
+								</div>
+							</div>
 						</div>
 					</section>
 
