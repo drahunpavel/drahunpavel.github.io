@@ -3597,6 +3597,7 @@ input, select, textarea {
 
 								#header nav > ul > li > a.menuToggle {
 									padding: 0 1.5em;
+									width: 70px;
 								}
 
 									#header nav > ul > li > a.menuToggle span {
