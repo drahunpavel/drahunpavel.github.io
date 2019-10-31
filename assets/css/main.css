@@ -142,7 +142,8 @@
 
 	p {
 		margin: 0 0 2em 0;
-		font-size: 24px;
+		/* font-size: 24px; */
+		font-size: 1.2em
 	}
 
 	h1, h2, h3, h4, h5, h6 {
@@ -2268,7 +2269,8 @@
 			box-shadow: none !important;
 			margin: 0 0 2em 0;
 			padding: 0 !important;
-			font-size: 24px;
+			/* font-size: 24px; */
+			font-size: 1.2em;
 			text-align: center;
 		}
 
@@ -2506,7 +2508,8 @@
 		ul.alt {
 			list-style: none;
 			padding-left: 0;
-			font-size: 30px;
+			/* font-size: 30px; */
+			font-size: 1.2em;
 		}
 
 			ul.alt li {
@@ -3364,7 +3367,7 @@
 
 		#footer .copyright {
 			color: #999;
-			font-size: 24px;
+			font-size: 1.2em;
 			line-height: 1em;
 			margin: 2em 0 0 0;
 			padding: 0;
