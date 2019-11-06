@@ -2941,7 +2941,8 @@
 	#header {
 		/* background: #444; */
 		/* background: #aaccbc; */
-		background: #5a4838;
+		/* background: #5a4838; */
+		background: #92754d;
 		color: #bbb;
 		cursor: default;
 		height: 3.25em;
@@ -3398,7 +3399,8 @@
 	#cta {
 		/* background: #e89980; */
 		/* background: #eae8d3; */
-		background: #5a4838;
+		/* background: #5a4838; */
+		background: #92754d;
 		color: #f9e6df;
 		padding: 3.5em 0 4em 0;
 		text-align: center;
