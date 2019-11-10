@@ -1,15 +1,10 @@
-/*
-	Alpha by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
-*/
-
 (function($) {
-
+	
 	var	$window = $(window),
 		$body = $('body'),
 		$header = $('#header'),
 		$banner = $('#banner');
+		$bannerOther = $('#bannerAllPages');
 
 	// Breakpoints.
 		breakpoints({
@@ -66,11 +61,19 @@
 	// Header.
 		if (!browser.mobile
 		&&	$header.hasClass('alt')
-		&&	$banner.length > 0) {
-
+		&&	$banner.length > 0 
+		||  $bannerOther.length > 0 ){
+			
 			$window.on('load', function() {
 
 				$banner.scrollex({
+					bottom:		$header.outerHeight(),
+					terminate:	function() { $header.removeClass('alt'); },
+					enter:		function() { $header.addClass('alt reveal'); },
+					leave:		function() { $header.removeClass('alt'); }
+				});
+
+				$bannerOther.scrollex({
 					bottom:		$header.outerHeight(),
 					terminate:	function() { $header.removeClass('alt'); },
 					enter:		function() { $header.addClass('alt reveal'); },

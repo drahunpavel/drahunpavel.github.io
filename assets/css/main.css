@@ -2334,6 +2334,10 @@
 			text-align: center;
 		}
 
+		.box .set-space{
+			margin-bottom: 120px;
+		}
+
 		.box .image.featured {
 			border-radius: 0;
 			display: block;
@@ -3253,7 +3257,7 @@
 	background-attachment: scroll, fixed;
 	background-color: #666;
 	background-image: url("images/overlay.png"), url("../../images/IMG_7048-min.JPG");
-	background-position: top left, center center;
+	background-position: top left, bottom center;
 	background-repeat: repeat, no-repeat;
 	background-size: auto, cover;
 	color: #fff;
