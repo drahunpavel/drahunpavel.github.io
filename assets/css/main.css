@@ -37,6 +37,7 @@
 
 	body {
 		line-height: 1;
+		color: #83919e !important;
 	}
 
 	ol, ul {
@@ -123,7 +124,8 @@
 		-ms-transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
 		transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
 		border-bottom: dotted 1px;
-		color: #e89980;
+		/* color: #e89980; */
+		color: #99c1ce;
 		text-decoration: none;
 	}
 
@@ -146,8 +148,15 @@
 		font-size: 1.2em
 	}
 
-	h1, h2, h3, h4, h5, h6 {
+	h1, h2, h3, h5, h6 {
 		color: #646464;
+		font-weight: 300;
+		line-height: 1em;
+		margin: 0 0 0.5em 0;
+	}
+
+	h4 {
+		color: #83919e;
 		font-weight: 300;
 		line-height: 1em;
 		margin: 0 0 0.5em 0;
@@ -2051,14 +2060,20 @@
 		text-align: center;
 	}
 
+		header.major h2 {
+			color: #83919e;
+		}
+
 		header.major h3 {
 			margin: 0 0 5px 0;
+			color: #83919e;
 		}
 
 		header.major p {
 			display: inline-block;
 			border-top: solid 2px #e5e5e5;
-			color: #777;
+			/* color: #777; */
+			color: #83919e;
 			/* margin: 0.5em 0 0 0; */
 			padding: 1.5em 0 0 0;
 			font-style: normal;
@@ -2252,7 +2267,8 @@
 /* Box */
 
 	.box {
-		background: #fff;
+		/* background: #fff; */
+		background: #fffff1;
 		border-radius: 6px;
 		box-shadow: 0 2px 0 0 #e5e5e5;
 		margin: 0 0 2em 0;
@@ -2334,9 +2350,13 @@
 			text-align: center;
 		}
 
-		.box .set-space{
-			margin-bottom: 120px;
+		.box.special h3{
+			color: #83919e;
 		}
+
+		/* .box .set-space{
+			margin-bottom: 120px;
+		} */
 
 		.box .image.featured {
 			border-radius: 0;
@@ -2899,7 +2919,11 @@
 
 	body.landing #page-wrapper {
 		padding-top: 0;
-		background: #e6e5db;
+		/* background: #e6e5db; */
+		/* background: #ddf1f2; */
+		/* background: #c0eade; */
+		/* background: #c3b199; */
+		background: #d6d0d0;
 	}
 
 	@-moz-keyframes reveal-header {
@@ -2946,7 +2970,9 @@
 		/* background: #444; */
 		/* background: #aaccbc; */
 		/* background: #5a4838; */
-		background: #92754d;
+		/* background: #92754d; */
+		/* background: #482e1d; */
+		background: #726c6e;
 		color: #bbb;
 		cursor: default;
 		height: 3.25em;
@@ -3404,7 +3430,10 @@
 		/* background: #e89980; */
 		/* background: #eae8d3; */
 		/* background: #5a4838; */
-		background: #92754d;
+		/* background: #92754d; */
+		/* background: #92754d; */
+		/* background: #482e1d; */
+		background: #726c6e;
 		color: #f9e6df;
 		padding: 3.5em 0 4em 0;
 		text-align: center;
@@ -3688,7 +3717,8 @@
 				top: 0;
 				width: 275px;
 				z-index: 10002;
-				background: #2b2b2b;
+				/* background: #2b2b2b; */
+				background: #726c6e;
 				color: #bbb;
 			}
 
