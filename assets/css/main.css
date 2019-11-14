@@ -268,6 +268,7 @@
 		flex-wrap: wrap;
 		box-sizing: border-box;
 		align-items: stretch;
+		opacity: 1 !important;
 	}
 
 		.row > * {
@@ -2096,6 +2097,7 @@
 	input[type="text"],
 	input[type="password"],
 	input[type="email"],
+	input[type="tel"],
 	select,
 	textarea {
 		-moz-appearance: none;
@@ -2116,6 +2118,7 @@
 		input[type="text"]:invalid,
 		input[type="password"]:invalid,
 		input[type="email"]:invalid,
+		input[type="tel"]:invalid,
 		select:invalid,
 		textarea:invalid {
 			box-shadow: none;
@@ -2124,6 +2127,7 @@
 		input[type="text"]:focus,
 		input[type="password"]:focus,
 		input[type="email"]:focus,
+		input[type="tel"]:focus,
 		select:focus,
 		textarea:focus {
 			border-color: #e89980;
@@ -2156,6 +2160,7 @@
 	input[type="text"],
 	input[type="password"],
 	input[type="email"],
+	input[type="tel"],
 	select {
 		height: 3em;
 	}
@@ -3434,6 +3439,11 @@
 		/* background: #92754d; */
 		/* background: #482e1d; */
 		background: #726c6e;
+		/* background-image: url(/images/50.png); */
+		/* opacity: 0.3; */
+		/* background-repeat: repeat-y; */
+		/* background-repeat: space; */
+
 		color: #f9e6df;
 		padding: 3.5em 0 4em 0;
 		text-align: center;
@@ -3452,6 +3462,7 @@
 		#cta input[type="submit"],
 		#cta input[type="reset"],
 		#cta input[type="button"],
+		#cta input[type="tel"],
 		#cta .button {
 			box-shadow: none;
 			background: #fff;
@@ -3461,6 +3472,7 @@
 		#cta input[type="text"],
 		#cta input[type="password"],
 		#cta input[type="email"],
+		#cta input[type="tel"],
 		#cta select,
 		#cta textarea {
 			color: #ffffff;
@@ -3471,6 +3483,7 @@
 			#cta input[type="text"]:focus,
 			#cta input[type="password"]:focus,
 			#cta input[type="email"]:focus,
+			#cta input[type="tel"]:focus,
 			#cta select:focus,
 			#cta textarea:focus {
 				box-shadow: inset 0 0 0 2px #fff;

@@ -43,19 +43,19 @@
 		<!-- Main -->
 		<section id="main" class="container">
 				<div class="box">
-						<form method="post" action="#">
+						<form method="post" type="post" action="/assets/php/send.php">
 							<div class="row gtr-50 gtr-uniform">
 								<div class="col-6 col-12-mobilep">
-									<input type="text" name="name" id="name" value="" placeholder="Имя" />
+									<input type="text" name="name" id="name" value="" placeholder="Имя" required/>
 								</div>
 								<div class="col-6 col-12-mobilep">
-									<input type="text" name="subject" id="subject" value="" placeholder="Номер телефона" />
+									<input type="tel" name="phone" id="phone" value="" placeholder="Номер телефона" required/>
 								</div>
 								<div class="col-12">
-									<input type="email" name="email" id="email" value="" placeholder="Электронная почта" />
+									<input type="email" name="email" id="email" value="" placeholder="Электронная почта" required/>
 								</div>
 								<div class="col-12">
-									<textarea name="message" id="message" placeholder="Введите ваше сообщение" rows="6"></textarea>
+									<textarea name="message" id="message" placeholder="Введите ваше сообщение" rows="6" required></textarea>
 								</div>
 								<div class="col-12">
 									<ul class="actions special">

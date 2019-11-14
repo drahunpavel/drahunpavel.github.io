@@ -199,20 +199,20 @@
 						</ul>
 				</div>
 				<div class="col-6 col-12-mobilep">
-					<form method="post" action="#">
+					<form action="/assets/php/send.php" method="post">
 						<div class="row gtr-50 gtr-uniform">
 							<div class="col-6 col-12-mobilep">
-								<input type="text" name="name" id="name" value="" placeholder="Имя" />
+								<input type="text" name="name" id="name" value="" placeholder="Имя" required/>
 							</div>
 							<div class="col-6 col-12-mobilep">
-								<input type="text" name="subject" id="subject" value="" placeholder="Телефон" />
+								<input type="tel" name="phone" id="phone" value="" placeholder="Телефон" required/>
 							</div>
 							<div class="col-12">
-									<input type="email" name="email" id="email" value="" placeholder="Электронная почта" />
+								<input type="email" name="email" id="email" value="" placeholder="Электронная почта" required/>
 							</div>
 							<div class="col-12">
-								<textarea name="message" id="message" placeholder="Введите ваше сообщение"
-									rows="4"></textarea>
+								<textarea name="message" id="message" placeholder="Введите ваше сообщение" rows="4" required>
+								</textarea>
 							</div>
 							<div class="col-12">
 								<ul class="actions special">

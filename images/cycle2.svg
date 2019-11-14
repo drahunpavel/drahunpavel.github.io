@@ -3,11 +3,12 @@
 <svg version="1.1" id="Слой_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="0 0 649.2 180.3" style="enable-background:new 0 0 649.2 180.3;" xml:space="preserve">
 <style type="text/css">
-	.st0{fill:none;stroke:#000000;stroke-width:3;stroke-miterlimit:10;}
-	.st1{fill:none;stroke:#000000;stroke-width:3;stroke-linecap:round;stroke-miterlimit:10;}
-	.st2{fill:none;stroke:#000000;stroke-width:3;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
-	.st3{fill:none;stroke:#000000;stroke-width:3;stroke-linejoin:round;stroke-miterlimit:10;}
-	.st4{fill:none;stroke:#000000;stroke-width:3;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:10,10;}
+	.st0{fill:none;stroke:#83919E;stroke-width:3;stroke-miterlimit:10;}
+	.st1{fill:none;stroke:#83919E;stroke-width:3;stroke-linecap:round;stroke-miterlimit:10;}
+	.st2{fill:none;stroke:#83919E;stroke-width:3;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+	.st3{fill:none;stroke:#83919E;stroke-width:3;stroke-linejoin:round;stroke-miterlimit:10;}
+	.st4{fill:none;stroke:#83919E;stroke-width:3;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:10,10;}
+	.st5{fill:#83919E;}
 </style>
 <g>
 	<g>
@@ -86,19 +87,19 @@
 </g>
 <g>
 	<g>
-		<path class="st4" d="M182.6,114.8c14.5-5.7,31.4-6.8,46.1-0.8"/>
+		<path class="st4" d="M182.8,115.1c14.4-5.7,31.2-6.7,45.8-0.8"/>
 		<g>
-			<path d="M221.7,115.5c2.4-0.9,3.6-1.2,6.2-1.8c-1.6-2.1-2.4-3.1-4.3-5.1c1.9,0.5,2.8,0.8,4.7,1.4c1.7,2.1,2.5,3.2,3.9,5.4
-				c-2.6,0.4-3.9,0.7-6.3,1.4C224.2,116.2,223.4,115.9,221.7,115.5z"/>
+			<path class="st5" d="M221.7,115.5c2.4-0.9,3.6-1.2,6.2-1.8c-1.6-2.1-2.4-3.1-4.3-5.1c1.9,0.5,2.8,0.8,4.7,1.4
+				c1.7,2.1,2.5,3.2,3.9,5.4c-2.6,0.4-3.9,0.7-6.3,1.4C224.2,116.2,223.4,115.9,221.7,115.5z"/>
 		</g>
 	</g>
 </g>
 <g>
 	<g>
-		<path class="st4" d="M461.7,114.8c14.5-5.7,31.4-6.8,46.1-0.8"/>
+		<path class="st4" d="M461.8,115.1c14.4-5.7,31.2-6.7,45.8-0.8"/>
 		<g>
-			<path d="M500.7,115.5c2.4-0.9,3.6-1.2,6.2-1.8c-1.6-2.1-2.4-3.1-4.3-5.1c1.9,0.5,2.8,0.8,4.7,1.4c1.7,2.1,2.5,3.2,3.9,5.4
-				c-2.6,0.4-3.9,0.7-6.3,1.4C503.2,116.2,502.4,115.9,500.7,115.5z"/>
+			<path class="st5" d="M500.7,115.5c2.4-0.9,3.6-1.2,6.2-1.8c-1.6-2.1-2.4-3.1-4.3-5.1c1.9,0.5,2.8,0.8,4.7,1.4
+				c1.7,2.1,2.5,3.2,3.9,5.4c-2.6,0.4-3.9,0.7-6.3,1.4C503.2,116.2,502.4,115.9,500.7,115.5z"/>
 		</g>
 	</g>
 </g>
