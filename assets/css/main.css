@@ -3439,11 +3439,12 @@
 		/* background: #92754d; */
 		/* background: #482e1d; */
 		background: #726c6e;
-		/* background-image: url(/images/80.png); */
+		background-image: url(/images/cut-photo.png);
+		opacity: 0.7;
 		/* opacity: 0.4; */
 		/* background-repeat: repeat-y; */
 		/* background-repeat: space; */
-		z-index: -2;
+		/* z-index: -2; */
 		color: #f9e6df;
 		padding: 3.5em 0 4em 0;
 		text-align: center;
